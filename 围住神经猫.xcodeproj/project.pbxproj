@@ -1,0 +1,420 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		67E2A88119884FB200307867 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67E2A88019884FB200307867 /* AppDelegate.swift */; };
+		67E2A88319884FB200307867 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 67E2A88219884FB200307867 /* Images.xcassets */; };
+		67E2A88F19884FB200307867 /* _____Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67E2A88E19884FB200307867 /* _____Tests.swift */; };
+		67E2A89F19884FD100307867 /* gray.png in Resources */ = {isa = PBXBuildFile; fileRef = 67E2A89919884FD100307867 /* gray.png */; };
+		67E2A8A119884FD100307867 /* middle2.png in Resources */ = {isa = PBXBuildFile; fileRef = 67E2A89B19884FD100307867 /* middle2.png */; };
+		67E2A8A319884FD100307867 /* yellow2.png in Resources */ = {isa = PBXBuildFile; fileRef = 67E2A89D19884FD100307867 /* yellow2.png */; };
+		67E2A8A51988501700307867 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67E2A8A41988501700307867 /* ViewController.swift */; };
+		67E2A8A71988521300307867 /* CircleLocation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67E2A8A61988521300307867 /* CircleLocation.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		67E2A88919884FB200307867 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 67E2A87319884FB200307867 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 67E2A87A19884FB200307867;
+			remoteInfo = "围住神经猫";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		67E2A87B19884FB200307867 /* 围住神经猫.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "围住神经猫.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		67E2A87F19884FB200307867 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		67E2A88019884FB200307867 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		67E2A88219884FB200307867 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		67E2A88819884FB200307867 /* 围住神经猫Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "围住神经猫Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		67E2A88D19884FB200307867 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		67E2A88E19884FB200307867 /* _____Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "_____Tests.swift"; sourceTree = "<group>"; };
+		67E2A89919884FD100307867 /* gray.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = gray.png; sourceTree = "<group>"; };
+		67E2A89B19884FD100307867 /* middle2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = middle2.png; sourceTree = "<group>"; };
+		67E2A89D19884FD100307867 /* yellow2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = yellow2.png; sourceTree = "<group>"; };
+		67E2A8A41988501700307867 /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		67E2A8A61988521300307867 /* CircleLocation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CircleLocation.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		67E2A87819884FB200307867 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		67E2A88519884FB200307867 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		67E2A87219884FB200307867 = {
+			isa = PBXGroup;
+			children = (
+				67E2A87D19884FB200307867 /* 围住神经猫 */,
+				67E2A88B19884FB200307867 /* 围住神经猫Tests */,
+				67E2A87C19884FB200307867 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		67E2A87C19884FB200307867 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				67E2A87B19884FB200307867 /* 围住神经猫.app */,
+				67E2A88819884FB200307867 /* 围住神经猫Tests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		67E2A87D19884FB200307867 /* 围住神经猫 */ = {
+			isa = PBXGroup;
+			children = (
+				67E2A88019884FB200307867 /* AppDelegate.swift */,
+				67E2A8A41988501700307867 /* ViewController.swift */,
+				67E2A8A61988521300307867 /* CircleLocation.swift */,
+				67E2A88219884FB200307867 /* Images.xcassets */,
+				67E2A89919884FD100307867 /* gray.png */,
+				67E2A89B19884FD100307867 /* middle2.png */,
+				67E2A89D19884FD100307867 /* yellow2.png */,
+				67E2A87E19884FB200307867 /* Supporting Files */,
+			);
+			path = "围住神经猫";
+			sourceTree = "<group>";
+		};
+		67E2A87E19884FB200307867 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				67E2A87F19884FB200307867 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		67E2A88B19884FB200307867 /* 围住神经猫Tests */ = {
+			isa = PBXGroup;
+			children = (
+				67E2A88E19884FB200307867 /* _____Tests.swift */,
+				67E2A88C19884FB200307867 /* Supporting Files */,
+			);
+			path = "围住神经猫Tests";
+			sourceTree = "<group>";
+		};
+		67E2A88C19884FB200307867 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				67E2A88D19884FB200307867 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		67E2A87A19884FB200307867 /* 围住神经猫 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 67E2A89219884FB200307867 /* Build configuration list for PBXNativeTarget "围住神经猫" */;
+			buildPhases = (
+				67E2A87719884FB200307867 /* Sources */,
+				67E2A87819884FB200307867 /* Frameworks */,
+				67E2A87919884FB200307867 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "围住神经猫";
+			productName = "围住神经猫";
+			productReference = 67E2A87B19884FB200307867 /* 围住神经猫.app */;
+			productType = "com.apple.product-type.application";
+		};
+		67E2A88719884FB200307867 /* 围住神经猫Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 67E2A89519884FB200307867 /* Build configuration list for PBXNativeTarget "围住神经猫Tests" */;
+			buildPhases = (
+				67E2A88419884FB200307867 /* Sources */,
+				67E2A88519884FB200307867 /* Frameworks */,
+				67E2A88619884FB200307867 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				67E2A88A19884FB200307867 /* PBXTargetDependency */,
+			);
+			name = "围住神经猫Tests";
+			productName = "围住神经猫Tests";
+			productReference = 67E2A88819884FB200307867 /* 围住神经猫Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		67E2A87319884FB200307867 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0600;
+				ORGANIZATIONNAME = "郑赟";
+				TargetAttributes = {
+					67E2A87A19884FB200307867 = {
+						CreatedOnToolsVersion = 6.0;
+						LastSwiftMigration = 0810;
+					};
+					67E2A88719884FB200307867 = {
+						CreatedOnToolsVersion = 6.0;
+						LastSwiftMigration = 0810;
+						TestTargetID = 67E2A87A19884FB200307867;
+					};
+				};
+			};
+			buildConfigurationList = 67E2A87619884FB200307867 /* Build configuration list for PBXProject "围住神经猫" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 67E2A87219884FB200307867;
+			productRefGroup = 67E2A87C19884FB200307867 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				67E2A87A19884FB200307867 /* 围住神经猫 */,
+				67E2A88719884FB200307867 /* 围住神经猫Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		67E2A87919884FB200307867 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				67E2A88319884FB200307867 /* Images.xcassets in Resources */,
+				67E2A8A319884FD100307867 /* yellow2.png in Resources */,
+				67E2A8A119884FD100307867 /* middle2.png in Resources */,
+				67E2A89F19884FD100307867 /* gray.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		67E2A88619884FB200307867 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		67E2A87719884FB200307867 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				67E2A8A51988501700307867 /* ViewController.swift in Sources */,
+				67E2A8A71988521300307867 /* CircleLocation.swift in Sources */,
+				67E2A88119884FB200307867 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		67E2A88419884FB200307867 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				67E2A88F19884FB200307867 /* _____Tests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		67E2A88A19884FB200307867 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 67E2A87A19884FB200307867 /* 围住神经猫 */;
+			targetProxy = 67E2A88919884FB200307867 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		67E2A89019884FB200307867 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				METAL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		67E2A89119884FB200307867 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				METAL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		67E2A89319884FB200307867 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				INFOPLIST_FILE = "围住神经猫/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		67E2A89419884FB200307867 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				INFOPLIST_FILE = "围住神经猫/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		67E2A89619884FB200307867 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/围住神经猫.app/围住神经猫";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "围住神经猫Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				METAL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUNDLE_LOADER)";
+			};
+			name = Debug;
+		};
+		67E2A89719884FB200307867 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/围住神经猫.app/围住神经猫";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "围住神经猫Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				METAL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUNDLE_LOADER)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		67E2A87619884FB200307867 /* Build configuration list for PBXProject "围住神经猫" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				67E2A89019884FB200307867 /* Debug */,
+				67E2A89119884FB200307867 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		67E2A89219884FB200307867 /* Build configuration list for PBXNativeTarget "围住神经猫" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				67E2A89319884FB200307867 /* Debug */,
+				67E2A89419884FB200307867 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		67E2A89519884FB200307867 /* Build configuration list for PBXNativeTarget "围住神经猫Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				67E2A89619884FB200307867 /* Debug */,
+				67E2A89719884FB200307867 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 67E2A87319884FB200307867 /* Project object */;
+}
